@@ -38,7 +38,6 @@ docker compose up -d
 ```
 <img width="1609" height="205" alt="image" src="https://github.com/user-attachments/assets/f028011a-5d9f-497a-a87b-d20c63035f4a" />
 <img width="1335" height="117" alt="image" src="https://github.com/user-attachments/assets/a16aff87-c112-4713-b84c-639eac1daa59" />
-<img width="1574" height="102" alt="image" src="https://github.com/user-attachments/assets/7a62de0c-ae56-41bc-8ba1-e9f85d42a30e" />
 
 ### Ejecutar Docker compose para servicios que no se crearon correctamente
 Si algún servicio no se creó correctamente se puede usar
@@ -50,6 +49,8 @@ docker compose up -d <nombre servicio>
 ```
 docker compose ps
 ```
+<img width="1574" height="102" alt="image" src="https://github.com/user-attachments/assets/7a62de0c-ae56-41bc-8ba1-e9f85d42a30e" />
+
 <img width="1910" height="925" alt="image" src="https://github.com/user-attachments/assets/24219229-4b1d-47fb-a89f-e4b01f0011be" />
 
 ### COMPLETAR CON UNA CAPTURA DE PANTALLA DEL LISTADO DE LOS CONTENEDORES EN EJECUCIÓN
