@@ -28,12 +28,17 @@ El archivo compose.yaml permitirá configurar dos servicios de acuerdo con el si
 - Línea 43 es necesario que el wordpress-container se encuentre disponible en todo momento, defina una política de reinicio adecuada para esto
 - wordpress-vol y mysql-vol son volúmenes nombrados.
 
+<img width="565" height="793" alt="image" src="https://github.com/user-attachments/assets/27afd379-5fe0-440a-88f8-ca5670044e68" />
+
 ### Ejecutar Docker compose
 Este comando descargará las imágenes necesarias, creará y ejecutará los contenedores según lo definido en el archivo compose.yaml
 Para ejecutar en modo "detached" (en segundo plano) se agrega la opción -d:
 ```
 docker compose up -d
 ```
+<img width="1609" height="205" alt="image" src="https://github.com/user-attachments/assets/f028011a-5d9f-497a-a87b-d20c63035f4a" />
+<img width="1335" height="117" alt="image" src="https://github.com/user-attachments/assets/a16aff87-c112-4713-b84c-639eac1daa59" />
+<img width="1574" height="102" alt="image" src="https://github.com/user-attachments/assets/7a62de0c-ae56-41bc-8ba1-e9f85d42a30e" />
 
 ### Ejecutar Docker compose para servicios que no se crearon correctamente
 Si algún servicio no se creó correctamente se puede usar
@@ -45,9 +50,12 @@ docker compose up -d <nombre servicio>
 ```
 docker compose ps
 ```
+<img width="1910" height="925" alt="image" src="https://github.com/user-attachments/assets/24219229-4b1d-47fb-a89f-e4b01f0011be" />
+
 ### COMPLETAR CON UNA CAPTURA DE PANTALLA DEL LISTADO DE LOS CONTENEDORES EN EJECUCIÓN
 
 ### Detener y eliminar los contenedores definidos en el archivo
 ```
 docker compose down
 ```
+<img width="1701" height="120" alt="image" src="https://github.com/user-attachments/assets/cf57f285-6bff-486e-9397-b1a672eddefd" />
